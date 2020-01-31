@@ -1,5 +1,5 @@
 #include<stdio.h>
-void DisplayEvenFactor(int iNo)
+void DisplayFactor(int iNo)
 {
 	int i=0;
 	if(iNo<=0)
@@ -19,6 +19,6 @@ int main()
 	int iValue=0;
 	printf("Enter number\n");
 	scanf("%d",&iValue);
-	DisplayEvenFactor(iValue);
+	DisplayFactor(iValue);
 	return 0;
 }
