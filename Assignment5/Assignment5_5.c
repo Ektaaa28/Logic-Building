@@ -6,10 +6,9 @@ int FactDiff(int iNo)
 	if(iNo%i==0)
 	fact=fact+i;
 	{
-		for(i=0;i<iNo;i++)
+		for(i=1;i<iNo;i++)
 		if(iNo%i!=0)
 		nonfact=nonfact+i;
-		return nonfact;
 		{
 			diff=fact-nonfact;
 			return diff;
